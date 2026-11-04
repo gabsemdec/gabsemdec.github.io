@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SGP-SEMDEC · Sistema de Gestão de Pessoas</title>
+<meta name="description" content="Sistema de Gestão de Pessoas da Secretaria Municipal de Desenvolvimento da Cidade (SEMDEC), Prefeitura de Porto Velho/RO.">
+<style>
+  :root { --azul: #223F99; --verde: #6CBE54; --amarelo: #FEDC0B; --preto: #231F20; --fundo: #F5F7FB; --texto: #231F20; --suave: #4A5568; --cartao: #fff; --linha: #DDE3EE; }
+  @media (prefers-color-scheme: dark) { :root { --fundo: #121722; --texto: #EEF1F7; --suave: #B5BFD0; --cartao: #1B2232; --linha: #2C3650; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--fundo); color: var(--texto); }
+  .faixa { height: 6px; background: linear-gradient(90deg, var(--azul) 0 33%, var(--verde) 33% 66%, var(--amarelo) 66%); }
+  header { background: var(--azul); color: #fff; padding: 40px 16px; }
+  .int { max-width: 880px; margin: 0 auto; }
+  h1 { margin: 0 0 8px; font-size: clamp(1.6rem, 4vw, 2.3rem); }
+  header p { margin: 0; opacity: .92; }
+  main { padding: 28px 16px 40px; }
+  .cartao { background: var(--cartao); border: 1px solid var(--linha); border-radius: 14px; padding: 20px 22px; margin-bottom: 16px; }
+  h2 { margin: 0 0 8px; font-size: 1.2rem; color: var(--azul); }
+  @media (prefers-color-scheme: dark) { h2 { color: #9DB4FF; } }
+  .botao { display: inline-block; background: var(--azul); color: #fff; text-decoration: none; padding: 12px 18px; border-radius: 10px; font-weight: 700; margin: 6px 8px 0 0; }
+  .botao.sec { background: transparent; color: inherit; border: 1.5px solid var(--linha); }
+  a { color: inherit; }
+  footer { border-top: 1px solid var(--linha); padding: 18px 16px; font-size: .9rem; color: var(--suave); }
+</style>
+</head>
+<body>
+<div class="faixa" aria-hidden="true"></div>
+<header><div class="int">
+  <h1>SGP-SEMDEC · Sistema de Gestão de Pessoas</h1>
+  <p>Secretaria Municipal de Desenvolvimento da Cidade (SEMDEC) · Prefeitura de Porto Velho/RO</p>
+</div></header>
+<main class="int">
+  <section class="cartao">
+    <h2>O que é</h2>
+    <p>O SGP-SEMDEC é o sistema interno da área de Gestão de Pessoas (DIGP) da SEMDEC. Ele reúne o cadastro funcional dos servidores, as publicações no Diário Oficial, as representações e capacitações, o recadastramento e a escala de recesso.</p>
+    <p>Os servidores usam o <b>Portal do Servidor</b> para conferir e atualizar os próprios dados. As alterações só entram na ficha funcional depois da conferência da DIGP.</p>
+    <a class="botao" href="https://script.google.com/macros/s/AKfycbx3SB2IaXUygKvNKeuwCm45V5rfmHqrEXnPcZ8jUfBmMariaTG9HeMYRkjYGflCkFicEA/exec">Acessar o Portal do Servidor</a>
+    <a class="botao sec" href="privacidade.html">Política de Privacidade</a>
+  </section>
+  <section class="cartao">
+    <h2>Entrar com Google</h2>
+    <p>O botão "Entrar com Google" pede ao Google apenas o <b>endereço de e-mail</b> de quem entra, para confirmar a identidade. Só funciona para e-mails previamente validados pelo administrador do sistema. Nenhuma senha do Google é vista ou guardada pelo SGP-SEMDEC.</p>
+  </section>
+  <section class="cartao">
+    <h2>Contato</h2>
+    <p>Em caso de dúvidas, procure a DIGP: <a href="mailto:digp.semdec@portovelho.ro.gov.br">digp.semdec@portovelho.ro.gov.br</a></p>
+  </section>
+</main>
+<footer><div class="int">SEMDEC · Prefeitura de Porto Velho/RO · Arquitetura, Design e Desenvolvimento: Brwninho Quattrochi (BQ)</div></footer>
+</body>
+</html>
